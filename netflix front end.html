@@ -1,0 +1,177 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Netflix Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-black text-white">
+  <!-- Header -->
+  <header class="flex justify-between items-center p-4 bg-black bg-opacity-75 fixed w-full z-10">
+   <div class="flex items-center space-x-4">
+    <img alt="Netflix logo with red text on a black background" class="h-8" height="50" src="https://storage.googleapis.com/a1aa/image/eozwfueXgzbPYpeNxgL2OB7eiMsGHhLbeCFm8GXTbbyMifUBKA.jpg" width="100"/>
+    <nav class="hidden md:flex space-x-4">
+     <a class="text-white hover:text-gray-400" href="#">
+      Home
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      TV Shows
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      Movies
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      New &amp; Popular
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      My List
+     </a>
+    </nav>
+   </div>
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-search text-white">
+    </i>
+    <i class="fas fa-bell text-white">
+    </i>
+    <img alt="User profile icon with a generic avatar image" class="h-8 w-8 rounded-full" height="30" src="https://storage.googleapis.com/a1aa/image/tD3fPdxln303WCeVo3qt8rHgqS6cyhttW8LxIe9tunRI8TFoA.jpg" width="30"/>
+   </div>
+  </header>
+  <!-- Main Content -->
+  <main class="pt-16">
+   <!-- Hero Section -->
+   <section class="relative">
+    <img alt="Hero image with a dramatic scene from a popular show or movie" class="w-full h-96 object-cover" height="1080" src="https://storage.googleapis.com/a1aa/image/gWL4gFTuHmqfPCkLaff2R6VrNamKG9XtGC0LMSwhHguF8TFoA.jpg" width="1920"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent">
+    </div>
+    <div class="absolute bottom-8 left-8">
+     <h1 class="text-4xl md:text-6xl font-bold">
+      Popular Show
+     </h1>
+     <p class="mt-2 text-lg md:text-xl">
+      Watch the latest episodes now
+     </p>
+     <div class="mt-4">
+      <button class="bg-white text-black px-4 py-2 rounded-md font-semibold mr-2">
+       <i class="fas fa-play">
+       </i>
+       Play
+      </button>
+      <button class="bg-gray-700 bg-opacity-75 text-white px-4 py-2 rounded-md font-semibold">
+       <i class="fas fa-info-circle">
+       </i>
+       More Info
+      </button>
+     </div>
+    </div>
+   </section>
+   <!-- Rows of Movies/Shows -->
+   <section class="mt-8 px-4 md:px-8">
+    <h2 class="text-2xl font-semibold mb-4">
+     Trending Now
+    </h2>
+    <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+    </div>
+   </section>
+   <section class="mt-8 px-4 md:px-8">
+    <h2 class="text-2xl font-semibold mb-4">
+     Top Picks for You
+    </h2>
+    <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+    </div>
+   </section>
+   <section class="mt-8 px-4 md:px-8">
+    <h2 class="text-2xl font-semibold mb-4">
+     New Releases
+    </h2>
+    <div class="flex space-x-4 overflow-x-scroll scrollbar-hide">
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+     <img alt="Movie poster with a dramatic scene" class="w-48 h-72 object-cover rounded-md" height="300" src="https://storage.googleapis.com/a1aa/image/8vokn45fQsQvCKlU8zQauyTImpGdX8FxfPXRb1J6NJzGeTFoA.jpg" width="200"/>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-75 p-4 mt-8">
+   <div class="flex justify-center space-x-4">
+    <a class="text-gray-400 hover:text-white" href="#">
+     Audio and Subtitles
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Help Center
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Gift Cards
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Media Center
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Investor Relations
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Jobs
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Terms of Use
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Privacy
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Legal Notices
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Cookie Preferences
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Corporate Information
+    </a>
+    <a class="text-gray-400 hover:text-white" href="#">
+     Contact Us
+    </a>
+   </div>
+   <div class="flex justify-center mt-4">
+    <p class="text-gray-400">
+     © 2023 Netflix Clone
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
